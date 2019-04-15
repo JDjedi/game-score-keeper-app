@@ -1,0 +1,21 @@
+.player { // Block!
+	align-items: center; // center items vertically
+	display: flex;
+	justify-content: space-between; // spaces out children elements, space between children itmes
+}
+
+.player__name { // Element!
+	font-weight: 300;
+	font-size: 1.8rem
+}
+
+.player__stats { // Element!
+	font-size: 1.3rem;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.player__actions{ // Element!
+	flex-shrink: 0; // tells flexbox to never shrink this item not matter what
+}
+

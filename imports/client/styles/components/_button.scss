@@ -1,0 +1,30 @@
+.button {
+	background: white;
+	border: 1px solid #555555;
+	color: #555555;
+	cursor: pointer; // changes mouse over to a hand and glove
+	font-weight: 600;
+	line-height: 1;
+	margin-left: 1.3rem;
+	outline: none;
+	padding: 1.3rem;
+	transition: background .2s ease;
+
+	&:hover, &:focus { // scss feature!
+		background: #e8e8e8;
+	}
+
+	&:active {
+		background: #dddddd;
+		transform: scale(1.1); // when someone clicks the button it makes it just a bit bigger
+	}
+}
+
+.button--round { // -- creates modifier
+	border-radius: 50%; // perfect circle!
+	height: 4rem;
+	width: 4rem;
+}
+
+
+

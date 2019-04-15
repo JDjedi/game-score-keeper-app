@@ -1,0 +1,12 @@
+
+.form { // main flex container, elements therein are referred as its children and are called its "items"
+	display: flex; // this enables flexbox functionality, heights are equal, makes elements flow left to right
+}
+
+.form__input {
+	border: 1px solid #e8e8e8;
+	flex-grow: 1; // this allows for the child of .form to take up extra space within it
+	padding: 0 1.3rem;
+}
+
+
